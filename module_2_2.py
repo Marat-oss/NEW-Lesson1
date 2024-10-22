@@ -5,4 +5,6 @@ if first==second and second==third and third==first:
     print(3)
 elif first==second or first==third or third==second:
     print(2)
-else: print(0)
+elif first!=second and second!=third and third!=first:
+    print(0)
+else:print('Число не подходит') #Это же можно наверное вообще не прописывать, в условиях данной задачи?
